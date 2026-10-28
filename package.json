@@ -1,0 +1,28 @@
+{
+  "name": "nova-companion",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "base64-js": "1.5.1",
+    "expo": "~54.0.0",
+    "expo-dev-client": "~6.0.0",
+    "expo-linear-gradient": "~15.0.0",
+    "expo-secure-store": "~14.0.0",
+    "expo-status-bar": "~3.0.0",
+    "react": "19.1.0",
+    "react-native": "0.81.0",
+    "react-native-audio-api": "0.13.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.0"
+  },
+  "packageManager": "pnpm@12.15.0+sha512.b3951d6d6ff4a9f13dc7cf56cd28d2b8eb37dbcc9c68e52e1e1191873ea9f82a017287ab50baadc5ccc494f036c67c0e47eb13608c2fa36f47711b61ea128e61"
+}

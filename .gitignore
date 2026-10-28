@@ -1,0 +1,7 @@
+node_modules/
+.expo/
+.env
+server/.env
+*.keystore
+*.p8
+*.mobileprovision

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Nova Companion",
+    "slug": "nova-companion",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.yourname.novacompanion",
+      "permissions": [
+        "RECORD_AUDIO",
+        "MODIFY_AUDIO_SETTINGS",
+        "INTERNET"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.novacompanion",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Nova uses your microphone only while you choose to speak."
+      }
+    },
+    "plugins": [
+      [
+        "react-native-audio-api",
+        {
+          "iosBackgroundMode": false,
+          "iosMicrophonePermission": "Nova uses your microphone only while you choose to speak.",
+          "androidPermissions": [
+            "android.permission.RECORD_AUDIO",
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            "android.permission.INTERNET"
+          ],
+          "androidForegroundService": false
+        }
+      ]
+    ]
+  }
+}
